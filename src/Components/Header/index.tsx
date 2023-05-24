@@ -1,6 +1,7 @@
+import React from 'react';
 import Styled from 'styled-components'
 
-const Header = Styled.div`
+const Header: React.FunctionComponent = Styled.div`
 padding: 1.5rem 0.5rem 1rem;
 text-align: center;
 background: rgb(241 241 241 / 96%);
