@@ -1,10 +1,9 @@
-import React from 'react';
 import Styled from 'styled-components'
 
-const Header: React.FunctionComponent = Styled.div`
+const Header = Styled.div`
 padding: 1.5rem 0.5rem 1rem;
 text-align: center;
-background: rgb(241 241 241 / 96%);
+background: rgba(228, 228, 228, 0.96);
 position: sticky;
 top: 0px;
 margin-bottom: 0.5rem;
